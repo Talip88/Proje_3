@@ -5,7 +5,7 @@ import service.*;
 
 public class ApplicationRunner {
 
-    // TODO Bu class a dokunmayiniz
+
     public static void main(String[] args) throws ItemNotFoundException {
 
         UserService userService = new UserServiceImpl();
@@ -20,8 +20,6 @@ public class ApplicationRunner {
         shoppingService.completePurchase(currentUser, shoppingCart);
         System.out.println("Iyi gunler dileriz...");
 
-        // TODO Buradaki kod service siniflarinda olusturulmali ki program gecen haftaki gibi calissin...
-        // TODO Hangi method hangi parametre aliyor geriye ne donduruyor inceleyin...
 
     }
 }

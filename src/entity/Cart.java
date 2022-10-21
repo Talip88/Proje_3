@@ -5,18 +5,18 @@ import java.util.List;
 
 public class Cart{
 
-    // TODO Bu class a dokunmayiniz
+
     //----------------------Fields-------------------------------------------------------------------------
     private List<CartItem> items = new ArrayList<>();
     private double totalCartCost;
 
     //----------------------Constructor---------------------------------------------------------------------
 
-    // TODO Bu class a dokunmayiniz
+
     public Cart() {
     }
 
-    // TODO Bu class a dokunmayiniz
+
     //----------------------Instance Methods----------------------------------------------------------------
     public void addToCart(CartItem item){
         for (CartItem cartItem : items){

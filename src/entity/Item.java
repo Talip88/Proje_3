@@ -11,7 +11,7 @@ public class Item extends BaseEntity{
     private Color color;
     private double price;
 
-    // TODO Bu class a dokunmayiniz
+
     //---------------------- Constructor ---------------------------------------------------------------------
 
     // Tum degiskenleri constructorda initilize edin...
@@ -22,7 +22,7 @@ public class Item extends BaseEntity{
         this.price = price;
     }
 
-    // TODO Bu class a dokunmayiniz
+
     //----------------------Getter and Setter ---------------------------------------------------------------------
 
     public String getName() {

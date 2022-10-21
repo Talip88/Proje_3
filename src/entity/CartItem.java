@@ -2,19 +2,19 @@ package entity;
 
 public class CartItem{
 
-    // TODO Bu class a dokunmayiniz
+
     //----------------------Fields ---------------------------------------------------------------------
     private Item item;
     private int quantity;
 
-    // TODO Bu class a dokunmayiniz
+
     //----------------------Constructor ---------------------------------------------------------------------
     public CartItem(Item item, int quantity) {
         this.item = item;
         this.quantity = quantity;
     }
 
-    // TODO Bu class a dokunmayiniz
+
     //----------------------Getter and Setter ---------------------------------------------------------------------
     public Item getItem() {
         return item;

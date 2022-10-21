@@ -10,7 +10,7 @@ public class Address{
     private City city;
     private String zipCode;
 
-    // TODO Bu class a dokunmayiniz
+
     //----------------------Constructor ---------------------------------------------------------------------
 
     public Address(String description, City city, String zipCode) {
@@ -19,7 +19,7 @@ public class Address{
         this.zipCode = zipCode;
     }
 
-    // TODO Bu class a dokunmayiniz
+
     //----------------------Getter and Setter ---------------------------------------------------------------------
     public String getDescription() {
         return description;

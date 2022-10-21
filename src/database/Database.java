@@ -11,7 +11,7 @@ public class Database {
     public static List<User> users = new ArrayList<>();
     public static List<Item> items = new ArrayList<>();
 
-    //TODO BU CLASS DEGISTIRILMEYECEKTIR...
+
 
     static {
 
@@ -25,13 +25,6 @@ public class Database {
         items.add(item4);
 
     }
-
-    //TODO BU CLASS dan BAZI KODLAR EKSILMISTIR... BAKINIZ GECEN HAFTAKI KODA..ONLARI SERVICE de yeniden tanimlamalisiniz...
-
-
-
-
-
 
 
 
