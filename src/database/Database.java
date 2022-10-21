@@ -9,7 +9,7 @@ import java.util.List;
 public class Database {
 
     public static List<User> users = new ArrayList<>();
-    public static List<Item> items = new ArrayList<Item>();
+    public static List<Item> items = new ArrayList<>();
 
     //TODO BU CLASS DEGISTIRILMEYECEKTIR...
 
